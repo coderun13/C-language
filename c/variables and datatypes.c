@@ -13,3 +13,18 @@ int main()
     printf("%lu",sizeof(int));
     return 0;
 }
+ 
+ int main()
+{
+    int x;
+
+    x = 13;
+
+    printf("%d\n",x);
+
+    printf("hello everyone\n");
+
+    printf("I am snehal singh");
+
+    return 0;
+}
