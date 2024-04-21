@@ -87,3 +87,41 @@ int main()
     return 0;
 }
 
+
+int main()
+
+{
+
+ /**
+ * for loop
+ */
+
+
+    /*num from 1-100*/
+
+    for(int i=1;i<=100;i++)
+
+    {
+
+        printf("%d ",i);
+
+    }
+    
+
+    /*even num. 1-100*/
+
+    for(int i=1;i<=100;i++)
+
+    {
+
+        if(i%2==0)
+
+        {
+
+        printf("  %d \n",i);
+
+        }
+
+    }
+
+}
