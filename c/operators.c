@@ -72,3 +72,42 @@ int main()
     /* code */
     return 0;
 }
+
+
+
+int main()
+
+{
+
+    int x= 5;
+
+    int y=4;
+
+    printf("%d\n",x+y);
+
+    printf("%d\n",x-y);
+    
+    printf("%d\n",x*y);
+    
+    printf("%d\n",x/y);
+
+
+  int a,b;
+
+  printf("enter a ",a);
+
+  scanf("%d",&a);
+
+  printf("enter b ",b);
+
+  scanf("%d",&b);
+
+  int r;
+
+  int q=a/b;
+
+  r=a-b*q;
+
+  printf("the answer is %d ",r);
+
+}
