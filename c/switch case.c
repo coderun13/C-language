@@ -25,6 +25,7 @@
 
     #include <stdio.h>
 
+
 int main()
 {
     int age, marks;
@@ -66,3 +67,28 @@ int main()
     return 0;
 }
 
+
+int main()
+{
+    int m;
+        printf("enter your marks= ");
+        scanf("%d",&m);
+
+        switch(m)
+    {
+        case 61 ... 100:
+        printf("First Division");
+        break;
+        case 46 ... 60:
+        printf("Second Division");
+        break;
+
+        case 30 ... 44:
+        printf("Third Division");
+        break;
+
+        default: 
+        printf("Fail");
+    }
+    return 0;
+}
