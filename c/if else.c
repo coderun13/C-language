@@ -66,3 +66,26 @@ int main()
 // maths - 15
 
 // print the type of gift you are giving to them
+
+int main()
+
+{
+
+int e;
+
+    printf("enter a number ");
+
+    scanf("%d",&e);
+
+    if (e%5==0)
+
+    {
+
+        printf("the number is divided by 5\n");
+
+    }else{
+
+        printf("the number is not divided by 5\n");
+
+    }
+} 
