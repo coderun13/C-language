@@ -9,17 +9,24 @@ int main()
 
 // }
 
+// {
+//     int arr1[4];
+//     printf("enter first number: ");
+//     scanf("%d",&arr1[0]);
+//      printf("enter second number: ");
+//     scanf("%d",&arr1[1]);
+//      printf("enter third number: ");
+//     scanf("%d",&arr1[2]);
+//      printf("enter fourth number: ");
+//     scanf("%d",&arr1[3]);
+
+//     printf("%d",arr1[3]);
+// }
+
 {
-    int arr1[4];
-    printf("enter first number: ");
-    scanf("%d",&arr1[0]);
-     printf("enter second number: ");
-    scanf("%d",&arr1[1]);
-     printf("enter third number: ");
-    scanf("%d",&arr1[2]);
-     printf("enter fourth number: ");
-    scanf("%d",&arr1[3]);
+     int arr[5]= {2,4,6,8,1};
 
-    printf("%d",arr1[3]);
+     for(int i = 1;i<=5;i++){
+        printf(" %d",arr[i]);
+     }
 }
-
