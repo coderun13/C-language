@@ -100,13 +100,15 @@ int main(){
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char s1[] = "How are you aryan?";
-    char* s2 = s1; //shallow copy(s2 points to the same character array and s1 reflect in s2)
+    /*char s1[] = "How are you aryan?";
+    char* s2 = s1; //s2 is a shallow copy(s2 points to the same character array and s1 reflect in s2)
     s1[0] = 'M';
+    printf("%s",s2);*/
+
+    char s1[] = "snehal";
+    char s2 [] = "aryan";
+    s2[0] = 'A'; //deep copy
+    printf("%s\n",s1);
     printf("%s",s2);
     return 0;
 }
-
-
-
-
