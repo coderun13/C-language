@@ -7,7 +7,7 @@
     return 0;
 }*/
 
-int main(){
+/*int main(){
     char arr[] = {'h','e','l','l','o','!'};
     int i = 0;
      while(arr[i]!= '!'){
@@ -15,5 +15,14 @@ int main(){
         i++;
      }
      return 0;
-};
+};*/
 
+int main(){
+    char arr[] = {"Hello Snehal\0"};
+    int i = 0;
+     while(arr[i]!= '\0'){
+        printf("%c",arr[i]);
+        i++;
+     }
+     return 0;
+};
