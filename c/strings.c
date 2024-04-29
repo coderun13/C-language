@@ -7,4 +7,13 @@
     return 0;
 }*/
 
+int main(){
+    char arr[] = {'h','e','l','l','o','!'};
+    int i = 0;
+     while(arr[i]!= '!'){
+        printf("%c",arr[i]);
+        i++;
+     }
+     return 0;
+};
 
