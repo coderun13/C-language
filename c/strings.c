@@ -82,12 +82,28 @@ int main(){
 //in normal initialization we can modify individual character but not the entire string.
 //pointer initialization, we can modify entire string but not individual character.
 
+/*#include<stdio.h>
+#include<string.h>
+int main(){
+   // char*ptr = "hello to all";
+    //ptr = "hello everyone";
+    // printf("%s",ptr);
+    char str[] = "snehal";
+    char* p = str;
+    *p = 'S'; // * - fetch(update value)
+    printf("%s",str);
+    return 0;
+}*/
+
+//copy one string to another()
+
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char*ptr = "hello to all";
-    ptr = "hello everyone";
-    printf("%s",ptr);
+    char s1[] = "How are you aryan?";
+    char* s2 = s1; //shallow copy(s2 points to the same character array and s1 reflect in s2)
+    s1[0] = 'M';
+    printf("%s",s2);
     return 0;
 }
 
