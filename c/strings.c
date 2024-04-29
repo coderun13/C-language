@@ -59,7 +59,7 @@ return 0;
 
 // strings as pointers
 
-#include<stdio.h>
+/*#include<stdio.h>
 #include<string.h>
 int main(){
    char str[] = "snehal singh";
@@ -71,11 +71,26 @@ int main(){
     i++;
    }
    return 0;
-}
+}*/
 
    /* char str[] = "snehal singh";
    char* ptr = str; //ptr now points to str[0]
    char* ptr = &str[0];
     printf("%p",ptr);
     return 0;*/
+
+//in normal initialization we can modify individual character but not the entire string.
+//pointer initialization, we can modify entire string but not individual character.
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char*ptr = "hello to all";
+    ptr = "hello everyone";
+    printf("%s",ptr);
+    return 0;
+}
+
+
+
 
