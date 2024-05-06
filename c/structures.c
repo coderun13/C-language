@@ -1,5 +1,5 @@
 //Structure - user defined data types
-//member in structure are processed individually,aa separate entities.
+//member in structure are processed individually,as separate entities.
 
 #include<stdio.h>
 int main(){
