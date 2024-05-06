@@ -18,35 +18,47 @@ typedef struct pokemon{
     char tier;
 }pokemon;
 
-pokemon arr[10];
-arr[0].attack = 50;
-arr[0].hp = 150;
-arr[0].speed = 30;
-arr[0].tier = 'A';
 
 
-arr[1].attack = 60;
-arr[1].hp = 200;
-arr[1].speed = 40;
-arr[1].tier = 'B';
 
 
-arr[2].attack = 80;
-arr[2].hp = 170;
-arr[2].speed = 20;
-arr[2].tier = 'S';
-
-for(int i=0;i<3;i++){
-    printf("%d\n",arr[i].attack);
-    printf("%d\n",arr[i].hp);
-    printf("%d\n",arr[i].speed);
-    printf("%d\n",arr[i].tier);
-
-}
-
-return 0;
-
+ return 0;
 };
+
+// typedef struct legendpokemon{
+//     pokemon normal;
+//     char ability[10];
+// }legendpokemon;
+
+// legendpokemon mewto;
+// strcpy(mewto.ability,"Pressure");
+// mewto.normal.attack = 20; //nested structure
+
+// pokemon arr[10];
+// arr[0].attack = 50;
+// arr[0].hp = 150;
+// arr[0].speed = 30;
+// arr[0].tier = 'A';
+
+
+// arr[1].attack = 60;
+// arr[1].hp = 200;
+// arr[1].speed = 40;
+// arr[1].tier = 'B';
+
+
+// arr[2].attack = 80;
+// arr[2].hp = 170;
+// arr[2].speed = 20;
+// arr[2].tier = 'S';
+
+// for(int i=0;i<3;i++){
+//     printf("%d\n",arr[i].attack);
+//     printf("%d\n",arr[i].hp);
+//     printf("%d\n",arr[i].speed);
+//     printf("%d\n",arr[i].tier);
+
+// }
 
 
 /**
@@ -101,6 +113,8 @@ typedef float realNumber;
 //     b.price = 300;
 //     strcpy(b.name,"First One");
 //     b.noOfpage = 100;
+
+//      b = a; (copying value of a to b(deep copy))(feature of structure)
 
 //     printf("%s\n",a.name);
 //     printf("%f\n",a.price);
@@ -161,4 +175,12 @@ typedef float realNumber;
 
 /**
  * Elements are stored in a continuous memory location
+*/
+
+
+/**
+ * Features of structures
+ * copying value of one to other
+ * nesting one structure within another structure
+ * A structure variable can be passed to a function(Imp)
 */
