@@ -7,6 +7,33 @@ int main()
  * Garbage value -> if value is not entered then a garbage value is stored
 */
 
+
+// (if marks less than 35 print the index)
+// {
+//    int marks[5]= {134,45,34,32,21,89};
+//    for(int i=0; i<5;i++){
+//    if(marks[i]<35){
+//       printf("%d ",i);
+//    }
+// }
+// }
+
+
+//(taking input and printing output by loop)
+// {
+//    int arr[5];
+
+// for(int i=0;i<=4;i++){
+//    int a = i+1;
+//    printf("\n enter element number%d - ",i);
+//    scanf("%d",&arr[i]);
+// }
+// for(int i=0;i<5;i++){
+//  printf("%d ",arr[i]); 
+// }
+// }
+
+
 //sumof all elements in array
 // {
 //    int arr[5];
