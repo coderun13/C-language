@@ -9,6 +9,22 @@ int main()
 */
 
 
+
+
+//print numbers greater than x(given input from the user)
+// {
+//     int x;
+//     int arr[7] = {1,2,3,4,5,6,7};
+//     printf("enter the number x %d - ",x);
+//     scanf("%d",&x);
+//      for(int i=0;i<=6;i++){
+//         if(arr[i]>x){
+//             printf("%d ",arr[i]);
+//         }
+//      }
+// }
+
+
 //multiply odd index number by 2 and add 10 to even index number
 // {
 //     int arr[7] = {1,2,3,4,5,6,7};
