@@ -9,6 +9,21 @@ int main()
 */
 
 
+//difference between the sum of all even and odd indices elements
+// {
+// int oddsum, evensum, diff;
+//     int arr[7] = {1,2,3,4,5,6,7};
+//      evensum = 0;
+//      oddsum = 0;
+//     for(int i=0;i<=6;i++){
+//         if(i % 2 == 0){
+//             evensum += arr[i];// 1+3+5+7 = 16
+//     } else {
+//         oddsum += arr[i];// 2+4+6 = 12 
+//     }
+//     }
+//     printf("%d",evensum - oddsum);// 16-12 = 4
+// }
 
 
 //print numbers greater than x(given input from the user)
