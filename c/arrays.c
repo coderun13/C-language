@@ -7,6 +7,23 @@ int main()
  * Garbage value -> if value is not entered then a garbage value is stored
 */
 
+//sumof all elements in array
+// {
+//    int arr[5];
+//    for(int i = 0;i<=4;i++){
+//       printf("enter the element %d ",i);
+//       scanf("%d",&arr[i]);
+//    }
+//     for(int i = 0; i<=4; i++){
+//       printf("%d \n",arr[i]);
+//     }
+//    int sum = 0;
+//    for(int i = 0; i<=4; i++){
+//       sum = sum + arr[i];
+//    }
+//    printf("sum is %d ",sum);
+// }
+
 
 //product of all elements in the array
 // {
