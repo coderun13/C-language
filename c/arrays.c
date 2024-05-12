@@ -8,6 +8,23 @@ int main()
 */
 
 
+//product of all elements in the array
+// {
+//    int arr[5];
+//    for(int i = 0;i<=4;i++){
+//       printf("enter the element %d ",i);
+//       scanf("%d",&arr[i]);
+//    }
+//     for(int i = 0; i<=4; i++){
+//       printf("%d \n",arr[i]);
+//     }
+//    int sum = 1;
+//    for(int i = 0; i<=4; i++){
+//       sum = sum * arr[i];
+//    }
+//    printf("sum is %d ",sum);
+// }
+
 
 
 //(print by index)
