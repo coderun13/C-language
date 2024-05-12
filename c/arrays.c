@@ -8,6 +8,14 @@ int main()
 */
 
 
+
+
+//(print by index)
+// {
+//    int arr[4] = {2,3,4,5};
+//    printf("%d",arr[3]); //
+// }
+
 //maximum value out of all elements in a array
 // {
 //    int arr[5];
