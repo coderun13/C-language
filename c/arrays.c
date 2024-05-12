@@ -5,7 +5,21 @@ int main()
  * Array -> Collection
  * Index -> start from 0
  * Garbage value -> if value is not entered then a garbage value is stored
+ * Passing array to functions -> It is passed by refernce
 */
+
+
+//multiply odd index number by 2 and add 10 to even index number
+// {
+//     int arr[7] = {1,2,3,4,5,6,7};
+//     for(int i=0;i<=6;i++){
+//         if(i%2!=0) arr[i]*=2;
+//         else arr[i]+=10;
+//         }
+//         for(int i=0;i<=6;i++){
+//         printf("%d ",arr[i]);
+//     }
+// }
 
 
 // (if marks less than 35 print the index)
