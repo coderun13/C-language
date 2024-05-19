@@ -174,3 +174,99 @@ int main()
 //         printf(" %d",arr[i]); 
 //      }
 // }
+
+
+//Pair whose sum is equal to a given number
+// {
+//     int arr[8] = {1,2,3,4,5,6,7,8};
+//     int totalPairs = 0;
+//     int x = 3 ;
+//     // printf("enter the number %d ",x);
+//     // scanf("%d",&x);
+//     for(int i=0; i<=7; i++){
+//         for(int j=i+1; j<=7; j++){
+//             if(arr[i]+ arr[j]== x){
+//                 totalPairs++;
+//                 printf("{%d,%d}\n",arr[i],arr[j]);
+//             }
+//         }
+//     }
+//     printf("%d",totalPairs);
+// }
+
+
+//Triplet whose sum is equal to a given number
+// {
+//     int arr[8] = {1,2,3,4,5,6,7,8};
+//     int totaltriplet = 0;
+//     int x = 12 ;
+//     // printf("enter the number %d ",x);
+//     // scanf("%d",&x);
+//     for(int i=0; i<=7; i++){
+//         for(int j=i+1; j<=7; j++){
+//              for(int k=j+1; k<=7; k++){
+//             if(arr[i]+ arr[j]+arr[k] == x){
+//                 totaltriplet++;
+//                 printf("{%d,%d,%d}\n",arr[i],arr[j],arr[k]);
+//                 }
+//             }
+//          }
+//     }
+//     printf("%d",totaltriplet);
+// }
+
+
+//second largest element in the given array
+// {
+//    int arr[5];
+//    for(int i = 0;i<=4;i++){
+//       printf("enter the element %d ",i);
+//       scanf("%d",&arr[i]);
+//    }
+//    int max = arr[0]; //comparison by first element
+//    int smax = arr[0];
+//    for(int i = 0; i<=4; i++){
+//       if(max<arr[i]){
+//       max = arr[i];
+//       }
+//    }
+//    for(int i = 0; i<=4; i++){
+//       if(arr[i]!= max && smax < arr[i]){
+//       smax = arr[i];
+//       }
+//    }
+//    printf("second max element is %d ",smax);
+// }
+
+//another way to do the same code above
+// {
+// int arr[5];
+//    for(int i = 0;i<=4;i++){
+//       printf("enter the element %d ",i);
+//       scanf("%d",&arr[i]);
+//    }
+//    int max = arr[0]; //comparison by first element
+//    int smax = arr[0];
+//    for(int i = 0; i<=4; i++){
+//       if(max<arr[i]){
+//       smax = max;
+//       max = arr[i];
+//       }
+//       else if(smax<arr[i] && max!=arr[i]){
+//            smax= arr[i];
+//        }
+//    }
+//    printf("%d",smax);
+// }
+
+
+{
+   int arr[7] = {1,2,3,4,5,6,7};
+   int brr[7];
+   for(int i = 6; i<=1 ;i--){
+      brr[i] = arr[i];
+   }
+ printf("%d", brr[i]);
+}
+
+
