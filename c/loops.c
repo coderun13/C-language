@@ -1,10 +1,10 @@
-/**
+#include<stdio.h>
+
+/*
  * while loop
 */
 
-#include<stdio.h>
-
-int main()
+/*int main()
 {
     int i = 0;
     while (i<54)
@@ -14,15 +14,14 @@ int main()
     }
 
     return 0;
-}
+}*/
 
-/**
+
+/*
  *do while 
 */
 
-#include <stdio.h>
-
-int main()
+/*int main()
 {
     int num, index = 0;
     printf("Enter a number\n");
@@ -34,15 +33,14 @@ int main()
     } while (index < num);
 
     return 0;
-}
+}*/
 
-/**
+
+/*
  * for loop
 */
 
-#include <stdio.h>
-
-int main()
+/*int main()
 {
     printf("Hello World\n");
     int i, j=0;
@@ -53,15 +51,14 @@ int main()
     }
     
     return 0;
-}
+}*/
 
-/**
+
+/*
  * break continue
 */
 
-#include <stdio.h>
-
-int main()
+/*int main()
 {
     printf("Hello World\n");
     int i, age;
@@ -85,43 +82,48 @@ int main()
     }
     
     return 0;
-}
+}*/
 
 
-int main()
-
-{
-
- /**
+ /*
  * for loop
  */
 
-
-    /*num from 1-100*/
-
-    for(int i=1;i<=100;i++)
-
+ /*int main()
+{
+    //num from 1-100
+    /*for(int i=1;i<=100;i++)
     {
-
         printf("%d ",i);
-
-    }
+    }*/
     
 
-    /*even num. 1-100*/
+    //even num. 1-100
 
-    for(int i=1;i<=100;i++)
-
+    /*for(int i=1;i<=100;i++)
     {
-
         if(i%2==0)
-
         {
-
         printf("  %d \n",i);
-
         }
-
     }
 
-}
+}*/
+
+
+//HCF
+// int gcd(){
+
+// }
+
+// int main()
+// {
+//     int a;
+//     printf("enter 1st number: ");
+//     scanf("%d",&a);
+//     int b;
+//     printf("enter 2nd number: ");
+//     scanf("%d",&b);
+//     int hcf = gcd(a,b);
+//     printf("The HCF/GCD of %d and %d is: ",a,b,hcf);
+// }
