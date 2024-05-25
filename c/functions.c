@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
 
-//basic function
+// basic function
 /*void greet(){
     printf("hello snehal\n");
     printf("How are you");
