@@ -120,7 +120,7 @@ int main()
 
 //n-1 then 1-n (after recursive call)(123 321)
 
-void decreasing(int x, int n){
+/*void decreasing(int x, int n){
     if(x>n) return; //base case
     printf("%d\n",x); //message to print
     decreasing(x+1,n); //recursive call
@@ -135,4 +135,26 @@ int main()
    scanf("%d",&n);
    decreasing(1,n);
    return 0;
+}*/
+
+
+//sum of 1 to n(parameterised)
+
+void sum(int n, int s){
+    if(n == 0){
+        printf("%d",s);
+        return;
+    }
+    sum(n-1,s+n);
+    return;
 }
+
+int main()
+{
+   int n;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   sum(n,0);
+   return 0;
+}
+
