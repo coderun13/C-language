@@ -100,8 +100,29 @@ int main()
 
 
 //n-1 (after recursive call)
+
+/*void decreasing(int x, int n){
+    if(x>n) return; //base case
+    decreasing(x+1,n); //recursive call
+    printf("%d\n",x); //message to print
+    return;
+}
+
+int main()
+{
+   int n;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   decreasing(1,n);
+   return 0;
+}*/
+
+
+//n-1 then 1-n (after recursive call)(123 321)
+
 void decreasing(int x, int n){
     if(x>n) return; //base case
+    printf("%d\n",x); //message to print
     decreasing(x+1,n); //recursive call
     printf("%d\n",x); //message to print
     return;
