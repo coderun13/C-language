@@ -161,8 +161,8 @@ int main()
 
 //sum of 1 to n (return type)
 
-int sum(int n){
-    if(n==1 || n==0) return 1;
+/*int sum(int n){
+    if(n==1 || n==0) return n;
     int recAns = n+sum(n-1);
     return recAns;
 }
@@ -172,7 +172,28 @@ int main()
    int n;
    printf("enter a number: ");
    scanf("%d",&n);
-   int fact = sum(n);
-   printf("%d",fact);
+   int s = sum(n);
+   printf("%d",s);
+   return 0;
+}*/
+
+
+// a raised to power b by recursion
+
+int power(int a, int b){
+    if(b == 0) return 1;
+   int recAns = a* power(a,b-1);
+    return recAns;
+}
+
+int main()
+{
+   int a,b;
+   printf("enter value of base: ");
+   scanf("%d",&a);
+   printf("enter value of power: ");
+   scanf("%d",&b);
+   int p = power(a,b);
+   printf("%d raised to power %d =  %d ",a,b,p);
    return 0;
 }
