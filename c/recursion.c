@@ -25,10 +25,10 @@ int main()
 
 //Print number 1 to n(increasing)
 
-void increasing(int x, int n){
-    if(x>n) return;
-    printf("%d\n",x);
-    increasing(x+1,n);
+/*void increasing(int x, int n){
+    if(x>n) return; //base case
+    printf("%d\n",x); //message to print
+    increasing(x+1,n); //recursive call
     return;
 }
 
@@ -39,7 +39,7 @@ int main()
    scanf("%d",&n);
    increasing(1,n);
    return 0;
-}
+}*/
 
 
 //Print number n to 1(decreasing)
@@ -80,9 +80,38 @@ int main()
  }*/
 
 
+//1-n (after recursive call)
+
+/*void increasing(int n){
+    if(n==0) return; //base case
+    increasing(n-1);
+    printf("%d\n",n);
+    return;
+}
+
+int main()
+{
+   int n;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   increasing(n);
+   return 0;
+}*/
 
 
+//n-1 (after recursive call)
+void decreasing(int x, int n){
+    if(x>n) return; //base case
+    decreasing(x+1,n); //recursive call
+    printf("%d\n",x); //message to print
+    return;
+}
 
-
-
-
+int main()
+{
+   int n;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   decreasing(1,n);
+   return 0;
+}
