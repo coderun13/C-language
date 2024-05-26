@@ -23,9 +23,28 @@ int main()
 }*/
 
 
+//Print number 1 to n(increasing)
+
+void increasing(int x, int n){
+    if(x>n) return;
+    printf("%d\n",x);
+    increasing(x+1,n);
+    return;
+}
+
+int main()
+{
+   int n;
+   printf("enter a number: ");
+   scanf("%d",&n);
+   increasing(1,n);
+   return 0;
+}
+
+
 //Print number n to 1(decreasing)
 
-void decreasing(int n){
+/*void decreasing(int n){
     if(n==0) return;
     printf("%d\n",n);
     decreasing(n-1);
@@ -39,7 +58,7 @@ int main()
    scanf("%d",&n);
    decreasing(n);
    return 0;
-}
+}*/
 
 
 //greeting 
