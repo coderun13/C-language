@@ -106,7 +106,7 @@ int main(){
     printf("Enter a: ",a);
     scanf("%d",&a);
 
-    printf("Enter a: ",b);
+    printf("Enter b: ",b);
     scanf("%d",&b);
 
     int temp = a;

@@ -180,7 +180,7 @@ int main()
 
 // a raised to power b by recursion
 
-int power(int a, int b){
+/*int power(int a, int b){
     if(b == 0) return 1;
    int recAns = a* power(a,b-1);
     return recAns;
@@ -196,4 +196,12 @@ int main()
    int p = power(a,b);
    printf("%d raised to power %d =  %d ",a,b,p);
    return 0;
-}
+}*/
+
+
+//power function (log approach)
+
+//stair path
+//maze path
+//zig zag
+//tower of hanoi

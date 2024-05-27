@@ -4,7 +4,7 @@
  * while loop
 */
 
-/*int main()
+int main()
 {
     int i = 0;
     while (i<54)
@@ -14,7 +14,7 @@
     }
 
     return 0;
-}*/
+}
 
 
 /*
