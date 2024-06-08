@@ -1,4 +1,4 @@
-Hello,
+Hello everyone,
 Welcome to C programming
 I am Snehal Singh
 Nice to see you here.
