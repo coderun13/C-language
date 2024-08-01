@@ -4,14 +4,14 @@ int main (void) {
     //declaring variables
     int num1, num2, num3, total;
     int user_input(void);
-    int my_addition(int,int);
+    int my_subtraction(int,int);
     int my_display(int,int,int);
     void my_exit(void);
     void my_welcome(void);
 
     num1 = user_input();
     num2 = user_input();
-    total = my_addition(num1,num2);
+    total = my_subtraction(num1,num2);
 
     my_display(num1, num2, total);
     my_exit();
@@ -32,15 +32,15 @@ int user_input(void){
 }
 
 //addition function
-int my_addition(int n1, int n2){
+int my_subtraction(int n1, int n2){
     printf("performing the sum operation...");
-    return(n1 + n2);
+    return(n1 - n2);
 }
 
 //display function
 int my_display(int a, int b, int tot) {
     printf("\n Displaying the result...");
-    printf("%d + %d = %d...\n",a,b,tot);
+    printf("%d - %d = %d...\n",a,b,tot);
 }
 
 //exit function
