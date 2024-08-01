@@ -6,13 +6,14 @@ int main (void) {
     int input(void);
     int my_addition(int,int);
     void my_display(int,int,int);
+    void my_exit();
 
     num1 = my_input();
     num2 = my_input();
     total = my_addition(num1,num2);
 
     my_display(num1, num2, total);
-    printf("end of program");
+    my_exit();
 
 }
 
@@ -34,4 +35,8 @@ int my_addition(int n1, int n2){
 void my_display(int a, int b, int tot) {
     printf("\n Displaying the result...");
     printf("%d + %d = %d...\n",a,b,tot);
+}
+
+void my_exit(void){
+    printf("end of program");
 }
