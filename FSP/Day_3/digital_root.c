@@ -30,3 +30,23 @@ int main() {
    printf("The digital root of %u is %u\n", num, dig_root);
    return 0;
 }
+
+/* 
+int main(void) {
+	int num,last_digit,total = 0;
+	printf("\nPlease enter an integer number: ");
+	scanf("%d", &num);
+	while (num != 0) {
+		last_digit = num % 10;
+		total += last_digit;
+		num = num / 10;
+		if (num == 0 && total > 9) {
+			num = total;
+			total = 0;
+			printf("\nGoing again for num = %d...", num);
+		}
+	}
+	printf("\nSo the Digital Root is %d...", total);
+	printf("\nEnd of the program...");
+}
+*/
